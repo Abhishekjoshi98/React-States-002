@@ -12,6 +12,6 @@ code {
     monospace;
 }
 
-.Ankur::first-letter{
+.screenClass::first-letter{
   text-transform: capitalize;
 }
