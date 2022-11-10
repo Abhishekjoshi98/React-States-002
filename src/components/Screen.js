@@ -4,7 +4,7 @@ import remarkGfm from "remark-gfm";
 const Screen = (props) => {
  const markdown = props.markupdata
   return (
-    <div className="Ankur">
+    <div className="screenClass">
      
       <ReactMarkdown  children={markdown} remarkPlugins={[remarkGfm]} />
     </div>
